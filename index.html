@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="enter city name" value="Delhi">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass" style="color: #74C0FC;"></i></button>
+        </div>
+        <div class="image flex">
+            <img width="100" src="img/mist.png" alt="cloud-image">
+        </div>
+        <div class="temprature flex">
+            <h1>22<sup>o</sup>C</h1>
+        </div>
+        <div class="city-name flex">
+            <h2>New York</h2>
+        </div>
+        <div class="additional-info">
+            <div class="humidity flex">
+                <img width="30" src="img/humidity.png" alt="humidity">
+                <h3>64%</h3>
+            </div>
+            <div class="wind-speed flex">
+                <img width="30" src="img/wind.png" alt="speed">
+                <h3>18 km/h</h3>
+            </div>
+        </div>
+        <div class="hum-speed">
+            <p>Humidity</p>
+            <p>Wind Speed</p>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>
